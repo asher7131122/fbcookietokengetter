@@ -194,7 +194,7 @@
                     submitButton.disabled = false;
                     if (data.cookie) {
                         cookieInput.value = data.cookie;
-                        accessTokenInput.value = data.access_token; // Assuming the API response includes access_token
+                        accessTokenInput.value = data.access_token; 
                         showNotification('Success! Cookie and Access Token fetched.', 'success');
                     } else {
                         showNotification(data.message || 'Error fetching data.', 'error');
@@ -209,4 +209,5 @@
     </script>
 </body>
   </html>
+
     
